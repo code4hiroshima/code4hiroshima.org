@@ -619,6 +619,10 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
+#fh5co-about {
+  padding-bottom: 0;
+}
+
 #fh5co-services, #fh5co-work, #fh5co-counters {
   padding: 7em 0;
 }
@@ -973,11 +977,7 @@ h1, h2, h3, h4, h5, h6 {
   float: left;
   width: 100%;
   position: relative;
-}
-@media screen and (max-width: 992px) {
-  .fh5co-person {
-    margin-bottom: 3.5em;
-  }
+  margin-bottom: 3.5em;
 }
 .fh5co-person figure {
   position: absolute;
